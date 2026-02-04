@@ -18,3 +18,9 @@ The goal was to learn how content is organized on the web and how different HTML
 
 ## Key takeaway
 Learning the basic structure of HTML helps me understand how web pages are organized and how different elements work together.
+
+
+### Live Page
+
+You can view this exercise live here:  
+👉 https://carolinaduarteneves.github.io/trybe-exercises/fundamentals/section-02-html-and-css/day-01-page-structure/exercise-01/
