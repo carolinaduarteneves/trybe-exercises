@@ -21,5 +21,6 @@ Understanding selectors and positioning in CSS is essential for building structu
 ## Live Page
 
 You can view this exercise live here:  
-👉 https://carolinaduarteneves.github.io/trybe-exercises/fundamentals/section-01-html-and-css/day-03-selectors-and-positioning/exercise-03/
+👉 https://carolinaduarteneves.github.io/trybe-exercises/fundamentals/section-02-html-and-css/day-03-selectors-and-positioning/exercise-03/
+
 
