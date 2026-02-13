@@ -1,0 +1,154 @@
+body{
+    font-size: 20px;
+    background-color: #F8F9FA;
+    color: #212529;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    text-align: center;
+    color: #3A5BA0;
+    font-size: 2em;
+}
+
+#hello{ 
+font-style: italic;
+text-align: center;
+background-color: #5C7AEA;
+color: white;
+
+}
+
+#first-paragraph{
+    text-align: center;
+}
+
+ol {
+  text-align: center;
+  list-style-position: inside;
+  padding: 0;
+}
+ul {
+  text-align: center;
+  list-style-position: inside;
+  padding: 0;
+}
+
+p{
+    line-height:1.6 ;
+}
+
+h2{
+    color: #5C7AEA;
+    text-align: center;
+}
+
+h4{
+    color:#3A5BA0;
+}
+
+#note{
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1;
+    
+}
+
+.css{
+    color: #3A5BA0;
+}
+
+#css-image{
+    width: 350px;
+    position: absolute;
+    top: 570px;
+    right: 60px;
+}
+
+
+#butterfly{
+    margin: 20px auto;
+    display: block;
+}
+.examples{
+    background-color:#b3c0db;
+    margin: 0 auto;
+    width: 80%;
+    height: 500px;
+    overflow: auto;
+    padding: 20px;
+    
+}
+
+#lake{
+    width: 400px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    z-index: 1
+}
+
+#alligator{
+    width: 60px;
+    position: absolute;
+    z-index: 2;
+    top: 230px;
+    left: 500px;
+    
+}
+
+#bird{
+    width: 40px;
+    position: absolute;
+    z-index: 3;
+    top: 220px;
+    left: 500px;
+}
+
+
+
+.image-stack {
+  position: relative;    
+  height: 420px;          
+  width: 100%;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+
+.example-row{
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+
+.example-row.right{
+  flex-direction: row-reverse;
+}
+
+#landscape{
+  width: 120px;
+  
+  display: block;
+}
+
+#icy-landscape{
+  width: 120px;
+ 
+  display: block;
+}
+
+
+#harmonious-natural-landscape{
+    width: 200px;
+    margin: 10px auto;
+    display: block;  
+    padding: 10px;     
+    
+    border: 3px solid #7b8cff;
+    border-radius: 12px;
+   
+    background-color: #e6ecff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
