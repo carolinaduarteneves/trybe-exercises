@@ -1,0 +1,18 @@
+body {
+  background-image: url(images/background-image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 50px;
+  float: center;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}

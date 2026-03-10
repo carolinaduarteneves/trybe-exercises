@@ -1,0 +1,125 @@
+.navbar {
+  background-color: #fab4bf;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 1000;
+}
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin: 50px;
+}
+
+#logo img {
+  position: fixed;
+bottom: 20px;
+right: 10px;
+  width: 200px;
+}
+
+body {
+  background-color: #fff1dd;
+}
+
+h1,
+h2 {
+  color: #fab4bf;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  
+}
+
+.container img {
+  width: 200px;
+  height: 200px;  
+  border-radius: 10px;
+  border: 20px solid #b84c63;
+  box-sizing: border-box;
+
+  margin: auto;
+
+    
+}
+
+.graduationcake{
+   width: 200px;
+  height: 200px; 
+  border-radius: 10px;
+  border: 20px solid #b84c63;
+  box-sizing: border-box;
+
+  
+}
+
+
+.container div {
+  text-align: center;
+}
+
+.about-images {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fab4bf;
+  height: auto align-items= center;
+  padding: 20px;
+}
+
+.about-images img {
+  width: 30%;
+  max-width: 380px;
+  min-width: 220px;
+  height: auto;
+  display: flex;
+}
+
+.story-column {
+  display: flex;
+  flex-direction: column;
+  background-color: #fab4bf;
+  row-gap: 20px;
+  align-content: center;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.story-column img {
+  height: 250px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.story-card img:hover + .story-text {
+  display: block;
+}
+
+.story-text {
+  display: none;
+  color: white;
+}
+
+.story-column h2 {
+  color: white;
+}
+
+.story-card {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
