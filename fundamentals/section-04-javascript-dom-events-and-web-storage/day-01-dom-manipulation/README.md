@@ -63,8 +63,8 @@ These exercises helped reinforce how JavaScript can control the behavior of elem
 
 ### Exercise 14 – Tic Tac Toe
 You can view this exercise live here:  
-👉 https://carolinaduarteneves.github.io/trybe-exercises/fundamentals/section-03-introduction-to-javascript/day-01-dom-manipulation/exercise-14/
+👉 https://carolinaduarteneves.github.io/trybe-exercises/fundamentals/section-04-javascript-dom-events-and-web-storage/day-01-dom-manipulation/exercise-14/
 
 ### Exercise 15 – To-Do List
 You can view this exercise live here:  
-👉 https://carolinaduarteneves.github.io/trybe-exercises/fundamentals/section-03-introduction-to-javascript/day-01-dom-manipulation/exercise-15/
+👉 https://carolinaduarteneves.github.io/trybe-exercises/fundamentals/section-04-javascript-dom-events-and-web-storage/day-01-dom-manipulation/exercise-15/

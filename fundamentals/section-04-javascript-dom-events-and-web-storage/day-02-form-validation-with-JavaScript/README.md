@@ -52,4 +52,4 @@ By combining **JavaScript event handling, conditional logic, and regular express
 
 ### Exercise 16 – Contact Form Validation
 You can view this exercise live here:  
-👉 https://carolinaduarteneves.github.io/trybe-exercises/fundamentals/section-03-introduction-to-javascript/day-02-form-validation-with-javascript/exercise-16/
+👉 https://carolinaduarteneves.github.io/trybe-exercises/fundamentals/section-04-javascript-dom-events-and-web-storage/day-02-form-validation-with-javascript/exercise-16/
