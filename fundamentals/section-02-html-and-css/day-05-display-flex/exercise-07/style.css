@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3dfdf;
+  color: white;
+  font-size: 20px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.nav-list ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  list-style: none;
+  background-color: rgba(255, 182, 193, 0.6);
+  top: 0;
+  position: fixed;
+  padding: 10px;
+  width: 100%;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: rgba(229, 127, 142);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  padding-top: 100px;
+  background-color: rgba(215, 152, 162, 0.879);
+  border-radius: 5px;
+  width: 80%;
+  margin: 100px auto 0;
+  padding: 20px;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+header img {
+  width: 50px;
+  z-index: 1000;
+}
+
+.jogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 60px;
+}
+
+.jogo h2 {
+  color: rgba(229, 127, 142);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.botoes button {
+  color: white;
+  background-color: rgba(229, 127, 142);
+  border-radius: 5px;
+  border: none;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 100px;
+  height: 100px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  cursor: pointer;
+}
+
+.botoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+button:hover {
+  transform: scale(1.05);
+  transition: 0.1s ease;
+}
+
+.botaoprincipal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.botao-grande {
+  color: white;
+  background-color: rgba(215, 152, 162, 0.879);
+  border-radius: 5px;
+  border: none;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  height: 100px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  margin-top: 60px;
+  margin-left: 10px;
+  text-decoration: none;
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#coelhinha {
+  width: 300px;
+  height: 250px;
+}
+
+.botao-grande:hover {
+  transform: scale(1.03);
+  transition: 0.5s ease;
+}
+
+.irritada {
+  display: none;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.irritada img {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.legenda {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(255, 182, 193, 0.6);
+  color: rgba(229, 127, 142);
+  width: 50%;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 30px auto;
+  border: 5px solid rgba(215, 152, 162, 0.879);
+}
+
+.listadepresentes h2 {
+  color: rgba(215, 152, 162, 0.879);
+  text-align: center;
+}
+
+.vermelho:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.8);
+}
+.vermelho {
+  transition: 0.5s ease;
+}
+
+.verde:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 25px rgba(0, 255, 0, 0.9);
+}
+
+.verde {
+  transition: 0.5s ease;
+}
+
+.laranja {
+  transition: 0.5s ease;
+}
+.laranja:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 25px rgba(255, 140, 0, 1);
+}
+
+.skincare {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.skincare img,
+.outros img {
+  width: 130px;
+  height: 200px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.maquiagem {
+  display: flex;
+  justify-content: center;
+}
+.maquiagem img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cabelo {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.cabelo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.outros {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.observacoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: rgba(255, 182, 193, 0.6);
+  margin: 10px auto;
+  border: 5px solid rgba(215, 152, 162, 0.879);
+  width: 30%;
+ 
+}
+
+.observacoes p{
+  padding: 20px;
+  text-align: center;
+  color: rgba(229, 127, 142);
+}
+
