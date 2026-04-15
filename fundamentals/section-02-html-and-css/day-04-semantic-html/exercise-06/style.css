@@ -1,13 +1,12 @@
 .navbar {
   background-color: #fab4bf;
-  position: sticky;
-  position: -webkit-sticky;
+  position: fixed;
   top: 0;
   z-index: 1000;
+  width: 100%;
 }
 .nav-list {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   list-style-type: none;
 }

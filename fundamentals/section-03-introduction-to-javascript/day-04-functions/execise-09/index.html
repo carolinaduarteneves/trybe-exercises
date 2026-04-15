@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Average</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+    <h2>Calculate Average</h2>
+    <label for="gradeA">Enter grade A:</label>
+    <input type="number" id="gradeA" placeholder="Enter grade A" step="0.1" min="0" max="10" />
+
+    <label for="gradeB">Enter grade B:</label>
+    <input type="number" id="gradeB" placeholder="Enter grade B" step="0.1" min="0" max="10"/>
+
+    <button onclick="calculateAverage()">Calculate</button>
+    <p id="result"></p>
+</div>
+    <script src="script.js"></script>
+  </body>
+</html>

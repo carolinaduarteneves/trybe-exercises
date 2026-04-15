@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1e1e1e; /* fundo mais suave */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+#page-title {
+  font-size: 48px;
+  color: #ffd6a5; /* tom quente */
+}
+
+#subtitle {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.cards-container {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 220px;
+  height: 220px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 0.25s ease;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+
+#first-card {
+  background-color: #f7d6d0;
+  color: #333;
+}
+
+
+#second-card {
+  background-color: #c68642;
+}
+
+#third-card {
+  background-color: #6ec6ff;
+  color: #003049;
+}
+
+#text-input {
+  width: 220px;
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #2f2f2f;
+  border-radius: 4px;
+}
+
+#text-input:focus {
+  outline: 2px solid #6ec6ff; /* azul do golfinho */
+}
+
+.selected {
+  transform: translateY(-20px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}

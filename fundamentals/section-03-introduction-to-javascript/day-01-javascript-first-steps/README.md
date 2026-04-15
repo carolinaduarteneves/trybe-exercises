@@ -25,4 +25,4 @@ By combining HTML elements with JavaScript logic, it is possible to build simple
 ## Live Page
 
 You can view this exercise live here:  
-👉 https://carolinaduarteneves.github.io/trybe-exercises/fundamentals/section-03-introduction-to-javascript/day-01-javascript-first-steps/exercise-07/
+👉 https://carolinaduarteneves.github.io/trybe-exercises/fundamentals/section-03-introduction-to-javascript/day-01-javascript-first-steps/exercise-01/

@@ -1,4 +1,4 @@
-# Day 03 – Arrays Practice
+# Day 03 – Arrays Practice 
 
 ## Overview
 On this day, I focused on learning how to work with **arrays in JavaScript** and how to iterate through lists of data using different types of loops.  
@@ -15,7 +15,7 @@ The goal was to understand how arrays store multiple values and how loops allow 
 
 ## Practice
 
-### Exercise 11 – Fruits Array Practice
+### Exercise 04 – Fruits Array Practice
 In this exercise, I practiced manipulating an array of fruits.
 
 The exercise included:
@@ -28,7 +28,9 @@ The exercise included:
 
 This exercise helped reinforce how arrays work and how data can be updated dynamically.
 
-### Exercise 12 – Loops Practice with Animal List
+---
+
+### Exercise 05 – Loops Practice with Animal List
 In this exercise, I practiced different **loop structures in JavaScript** by displaying a list of animals on a webpage.
 
 The program dynamically generated sections showing the results of several loop types:
@@ -43,12 +45,42 @@ The program dynamically generated sections showing the results of several loop t
 
 Each loop generated HTML elements dynamically using JavaScript and inserted them into the page using **DOM manipulation**.
 
+---
+
+### Exercise 06 – Number Analyze
+In this exercise, I built a small application that analyzes user input using arrays and loops.
+
+The user enters **four numbers**, and the program:
+
+- Validates if all fields are filled  
+- Prevents repeated numbers  
+- Stores the values inside an array  
+- Separates the numbers into:
+  - Even numbers  
+  - Odd numbers  
+- Finds:
+  - The highest number  
+  - The lowest number  
+
+The results are displayed dynamically on the page using **DOM manipulation**.
+
+This exercise helped reinforce:
+- Array creation and manipulation  
+- Conditional logic (`if/else`)  
+- Looping through arrays using `for`  
+- Data validation  
+- Working with numbers and type conversion (`Number()`)  
+
 ## Key takeaway
 Arrays allow developers to store and manage multiple values efficiently.  
 By combining arrays with different looping structures, it becomes possible to process lists of data and dynamically generate content on a webpage.
 
 ## Live Page
 
-### Exercise 12 – Loops Practice with Animal List
+### Exercise 05 – Loops Practice with Animal List
 You can view this exercise live here:  
-👉 https://carolinaduarteneves.github.io/trybe-exercises/fundamentals/section-03-introduction-to-javascript/day-03-arrays-practice/exercise-12/
+👉 https://carolinaduarteneves.github.io/trybe-exercises/fundamentals/section-03-introduction-to-javascript/day-03-arrays-practice/exercise-05/
+
+### Exercise 06 – Number Analyze
+You can view this exercise live here:  
+👉 https://carolinaduarteneves.github.io/trybe-exercises/fundamentals/section-03-introduction-to-javascript/day-03-arrays-practice/exercise-06/

@@ -44,10 +44,10 @@ By combining **user input, conditional logic, and DOM manipulation**, it is poss
 
 ## Live Page
 
-### Exercise 09 – Mood Text Changer
+### Exercise 02 – Mood Text Changer
 You can view this exercise live here:  
-👉 https://carolinaduarteneves.github.io/trybe-exercises/fundamentals/section-03-introduction-to-javascript/day-02-dom-manipulation-and-switch-case/exercise-09/
+👉 https://carolinaduarteneves.github.io/trybe-exercises/fundamentals/section-03-introduction-to-javascript/day-02-dom-manipulation-and-switch-case/exercise-02/
 
-### Exercise 10 – Simple Math Calculator
+### Exercise 03 – Simple Math Calculator
 You can view this exercise live here:  
-👉 https://carolinaduarteneves.github.io/trybe-exercises/fundamentals/section-03-introduction-to-javascript/day-02-dom-manipulation-and-switch-case/exercise-10/
+👉 https://carolinaduarteneves.github.io/trybe-exercises/fundamentals/section-03-introduction-to-javascript/day-02-dom-manipulation-and-switch-case/exercise-03/
