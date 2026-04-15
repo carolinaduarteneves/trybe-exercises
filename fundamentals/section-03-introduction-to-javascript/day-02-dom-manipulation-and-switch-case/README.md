@@ -14,7 +14,7 @@ The goal was to understand how JavaScript can control HTML elements, respond to 
 
 ## Practice
 
-### Exercise 09 – Mood Text Changer
+### Exercise 02 – Mood Text Changer
 In this exercise, I built an interactive page that allows users to change the **color mood of the reading environment**.
 
 Users can click buttons to activate different modes:
@@ -25,7 +25,7 @@ Users can click buttons to activate different modes:
 
 JavaScript was used to manipulate the DOM and dynamically change the background color of different sections of the page.
 
-### Exercise 10 – Simple Math Calculator
+### Exercise 03 – Simple Math Calculator
 In this exercise, I created a **basic calculator** that performs mathematical operations based on user input.
 
 The user enters two numbers and a mathematical operator. The program then uses a **switch statement** to determine which calculation to perform.

@@ -1,30 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .navbar {
-  background-color: #fab4bf;
+  background-color: rgba(255, 182, 193, 0.6);
   position: fixed;
   top: 0;
-  z-index: 1000;
+  padding: 10px;
   width: 100%;
 }
+
 .nav-list {
   display: flex;
-  justify-content: center;
-  list-style-type: none;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.link {
-  text-decoration: none;
+.nav-list li {
+  list-style: none;
 }
 
-a {
+.nav-list a {
   text-decoration: none;
   color: white;
-  margin: 50px;
+}
+
+p{
+  line-height: 20px;
 }
 
 #logo img {
   position: fixed;
-bottom: 20px;
-right: 10px;
+  bottom: 20px;
+  right: 10px;
   width: 200px;
 }
 
@@ -37,35 +49,26 @@ h2 {
   color: #fab4bf;
 }
 
+#title {
+  margin-top: 50px;
+  text-align: center;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto;
-  
 }
 
 .container img {
   width: 200px;
-  height: 200px;  
+  height: 200px;
   border-radius: 10px;
   border: 20px solid #b84c63;
   box-sizing: border-box;
 
   margin: auto;
-
-    
 }
-
-.graduationcake{
-   width: 200px;
-  height: 200px; 
-  border-radius: 10px;
-  border: 20px solid #b84c63;
-  box-sizing: border-box;
-
-  
-}
-
 
 .container div {
   text-align: center;
