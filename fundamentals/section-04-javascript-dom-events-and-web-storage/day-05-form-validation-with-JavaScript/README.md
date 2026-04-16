@@ -19,7 +19,7 @@ Through this exercise, I practiced validating form fields, checking input length
 
 ## Practice
 
-### Exercise 16 – Contact Form Validation
+### Exercise 08 – Contact Form Validation
 In this exercise, I created a **Contact Form** and implemented validation logic using JavaScript.
 
 The form includes three main fields:
@@ -50,6 +50,6 @@ By combining **JavaScript event handling, conditional logic, and regular express
 
 ## Live Page
 
-### Exercise 16 – Contact Form Validation
+### Exercise 08 – Contact Form Validation
 You can view this exercise live here:  
-👉 https://carolinaduarteneves.github.io/trybe-exercises/fundamentals/section-04-javascript-dom-events-and-web-storage/day-02-form-validation-with-javascript/exercise-16/
+👉 https://carolinaduarteneves.github.io/trybe-exercises/fundamentals/section-04-javascript-dom-events-and-web-storage/day-02-form-validation-with-javascript/exercise-08/
