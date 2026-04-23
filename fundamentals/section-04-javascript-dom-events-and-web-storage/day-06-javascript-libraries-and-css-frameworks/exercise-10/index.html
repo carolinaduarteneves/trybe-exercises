@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="logo">
+        <img class="logo" src="images/codeflix-logo.png"
+            alt="Minimalist black and white logo for ‘Codeflix’, featuring a play button icon with coding symbols and modern sans-serif typography, outlined in white on a transparent background.">
+    </div>
+
+    <header class="container mt-5 text-light">
+
+        <div class="row text-center">
+
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">Basic</h5>
+                        <h6>$5.99 / month</h6>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Limited catalog</li>
+                            <li>SD (480p)</li>
+                            <li>1 device</li>
+                            <li>Ads included</li>
+                        </ul>
+
+                        <button>Choose Plan</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow card-highlight">
+                    <div class="card-body">
+                        <h5 class="card-title">Standard</h5>
+                        <h6>$9.99 / month</h6>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Full catalog</li>
+                            <li>HD</li>
+                            <li>2 devices</li>
+                            <li>No ads</li>
+                        </ul>
+
+                        <button>Choose Plan</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">Premium</h5>
+                        <h6>$14.99 / month</h6>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Exclusive content</li>
+                            <li>4K Ultra HD</li>
+                            <li>4 devices</li>
+                            <li>No ads</li>
+                        </ul>
+
+                        <button>Choose Plan</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+        <form action="" id="form" class="needs-validation" novalidate>
+            <section class="form-group">
+                <label for="name" class="form-label">Full Name: </label>
+                <input type="text" placeholder="Enter your full name" name="name" id="name" required
+                    class="form-control" />
+                <div class="invalid-feedback">
+                    Please enter your full name.
+                </div>
+            </section>
+
+            <section class="form-group">
+                <label for="email" class="form-label">Email Address: </label>
+                <input type="text" placeholder="Enter your email address" name="email" id="email" required
+                    class="form-control" />
+                <div class="invalid-feedback">
+                    Please enter a valid email.
+                </div>
+            </section>
+
+            <section class="form-group">
+                <label for="age" class="form-label">Age: </label>
+                <input type="number" placeholder="Enter your age" name="age" id="age" required class="form-control" />
+                <div class="invalid-feedback">
+                    Please enter a valid age (between 18 and 120).
+                </div>
+            </section>
+
+
+            <section class="form-group">
+                <label for="plan" class="form-label">Choose your plan: </label>
+
+                <select name="plan" id="plan" required class="form-select">
+                    <option value="">Select a plan</option>
+                    <option value="basic">Basic - $5.99 / month (SD, 1 device, ads)</option>
+                    <option value="standard">Standard - $9.99 / month (HD, 2 devices, no ads)</option>
+                    <option value="premium">Premium - $14.99 / month (4K, 4 devices, no ads)</option>
+
+                </select>
+            </section>
+
+            <section class="form-group">
+                <div class="form-check">
+                    <input type="checkbox" value="accepted" required class="form-check-input" />
+                    <p></p> I agree to the terms
+                    and conditions.</p>
+                </div>
+
+                <div class="form-check">
+                    <input type="checkbox" value="yes" class="form-check-input" />
+                    <p> I want to receive
+                        promotional emails.</p>
+                </div>
+            </section>
+            <button type="submit" id="button">Subscribe Now</button>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+body {
+  background: linear-gradient(90deg, #0d1b2a, #1b263b);
+   margin: 0;
+  padding: 0;
+}
+
+button {
+  background: linear-gradient(90deg, #0d1b2a, #1b263b);
+  color: white;
+  border-radius: 5px;
+  border: 2px solid white;
+  padding: 8px 16px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: translateY(-5px);
+  box-shadow:
+    0 8px 20px rgba(13, 27, 42, 0.6),
+    0 4px 10px rgba(27, 38, 59, 0.5);
+}
+
+#form {
+  color: white;
+  width: 50%;
+  margin: auto;
+}
+
+#button {
+  display: block;
+  margin: 20px auto;
+}
+
+.form-check {
+  display: block;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+  position: fixed;
+  bottom: -40px;
+  right: -40px;
+  z-index: 9999;
+}
