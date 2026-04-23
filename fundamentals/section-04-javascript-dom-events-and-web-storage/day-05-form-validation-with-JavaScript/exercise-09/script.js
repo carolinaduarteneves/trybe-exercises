@@ -3,14 +3,14 @@ function validateForm() {
   const email = document.getElementById("email").value;
   const age = document.getElementById("age").value;
   const motivation = document.getElementById("motivation").value;
-  const emailPatern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
   if (name.length < 5 || name.length > 100) {
     alert("Please enter your full name!");
     return false;
   }
 
-  if (email.length < 5 || (email.length > 254 || !emailPatern.test(email))) {
+  if (email.length < 5 || (email.length > 254 || !emailPattern.test(email))) {
     alert("Please enter a valid email address.");
     return false;
   }
@@ -18,6 +18,7 @@ function validateForm() {
 
   if (Number(age) < 18 ) {
     alert("Applicants must be 18 years or older");
+    return false;
   }
 
   if (motivation.length < 100 || motivation.length > 300) {
@@ -27,7 +28,6 @@ function validateForm() {
 
   return true;
 }
-
 document.getElementById("form").addEventListener("submit", function(event) {
 event.preventDefault();
     if (validateForm()) {

@@ -1,110 +1,70 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Adventure Travel Application</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
-      
-      <h1>ExploreX Travel</h1>
 
-      <img src="images/logo-exploreX.png" alt="Minimalist white logo of ExploreX Travel with travel icon">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adventure Travel Application</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+
+  <header class="flex-container">
+    <div class="initial-information">
+      <img src="images/logo-exploreX.png" alt="Minimalist airplane with curved trail, travel-themed logo element.">
+
       <h2>
         Go beyond limits and discover what the world has prepared for you!
       </h2>
 
       <p>
         You are building a form for a company called ExploreX Travel They are
-        selecting people to win an all-expenses-paid adventure trip. Users must
-        fill out their information, preferences, and explain why they deserve to
-        win.
+        selecting people to win an all-expenses-paid adventure trip. Users
+        must fill out their information, preferences, and explain why they
+        deserve to win.
       </p>
-    </header>
+    </div>
+    <div class="button-and-title-container">
+      <h1>ExploreX Travel</h1>
+      <a href="#form-container">
+        <button>Click here to go to the form</button></a>
+    </div>
+  </header>
 
-    <main>
-      <form action="" id="form">
+
+  <main id="form-container">
+    <form action="" id="form">
+      <div class="group">
         <label for="name">Full Name: </label>
-        <input
-          type="text"
-          placeholder="Enter your full name"
-          name="name"
-          id="name"
-          required
-        />
+        <input type="text" placeholder="Enter your full name" name="name" id="name" required />
 
         <label for="email">Email Address: </label>
-        <input
-          type="text"
-          placeholder="Enter your email address"
-          name="email"
-          id="email"
-          required
-        />
+        <input type="text" placeholder="Enter your email address" name="email" id="email" required />
 
         <label for="age">Age: </label>
-        <input
-          type="number"
-          placeholder="Enter your age"
-          name="age"
-          id="age"
-          required
-        />
+        <input type="number" placeholder="Enter your age" name="age" id="age" required />
+      </div>
 
-        <label for="favorite-destination" 
-          >Favorite Destination:
-        </label>
-
-        <label for="beach"
-          ><input
-            type="radio"
-            id="beach"
-            name="favorite-destination"
-            value="beach"
-            required
-          />Beach</label
-        >
-        <label for="mountains"
-          ><input
-            type="radio"
-            id="mountains"
-            name="favorite-destination"
-            value="mountains"
-            required
-          />Mountains</label
-        >
-        <label for="city"
-          ><input
-            type="radio"
-            id="city"
-            name="favorite-destination"
-            value="city"
-            required
-          />City</label
-        >
-        <label for="forest"
-          ><input
-            type="radio"
-            id="forest"
-            name="favorite-destination"
-            value="forest"
-            required
-          />Forest</label
-        >
-
-        <label for="motivation"
-          >Why should you be selected for this adventure?</label
-        >
-        <textarea
-          name="motivation"
-          id="motivation"
-          placeholder="Tell us why you deserve this adventure..."
-          required
-        ></textarea>
-
+      <label for="favorite-destination">Favorite Destination: </label>
+      <div class="destination">
+        <label for="beach"><input type="radio" id="beach" name="favorite-destination" value="beach"
+            required />Beach</label>
+        <label for="mountains"><input type="radio" id="mountains" name="favorite-destination" value="mountains"
+            required />Mountains</label>
+        <label for="city"><input type="radio" id="city" name="favorite-destination" value="city" required />City</label>
+        <label for="forest"><input type="radio" id="forest" name="favorite-destination" value="forest"
+            required />Forest</label>
+      </div>
+      <div class="textarea-group">
+        <label for="motivation">Why should you be selected for this adventure?</label>
+        <textarea name="motivation" id="motivation" placeholder="Tell us why you deserve this adventure..."
+          required></textarea>
+      </div>
+      <div class="select-group">
         <label for="season">Preferred Travel Season: </label>
+
         <select name="season" id="season" required>
           <option value="">Select a season</option>
           <option value="summer">Summer</option>
@@ -112,15 +72,23 @@
           <option value="spring">Spring</option>
           <option value="autumn">Autumn</option>
         </select>
+      </div>
 
+      <div class="checkbox-group">
+        <div class="checkbox">
         <input type="checkbox" value="accepted" required />I agree to the terms
-        and conditions. <input type="checkbox" value="yes" />I want to
-        receive promotional emails.
+        and conditions. 
+        </div>
+        <div class="checkbox">
+        <input type="checkbox" value="yes" />I want to receive
+        promotional emails.
+        </div>
+      </div>
+      <button type="submit" id="button">Apply Now</button>
+    </form>
+  </main>
 
-        <button type="submit">Apply Now</button>
-      </form>
-    </main>
+  <script src="script.js"></script>
+</body>
 
-    <script src="script.js"></script>
-  </body>
 </html>
