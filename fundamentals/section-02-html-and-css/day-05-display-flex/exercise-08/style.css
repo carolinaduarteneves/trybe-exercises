@@ -5,30 +5,30 @@ body {
 
 .header-container {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   background: linear-gradient(90deg, #0d1b2a, #1b263b);
   color: white;
 }
 
 .header-img {
-  height: 150px;
-  width: 200px;
-  margin-left: -20px;
+  width: 400px;
+  height: 300px;
+  margin-top: -70px;
 }
 
 .header-title {
   text-align: center;
   padding: 15px;
-  margin-right: 10px;
-  margin-left: -30px;
 }
 .header-login {
   text-decoration: none;
   color: white;
   text-align: center;
   padding: 10px;
-  margin-right: 20px;
+  margin-top: -120px;
+  margin-bottom: 20px;
   border: 2px solid white;
   border-radius: 5px;
   background-color: rgba(18, 18, 18, 0.166);
@@ -36,9 +36,14 @@ body {
 
 .text-section {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.text-section p {
+  margin-top: -10px;
 }
 
 .gallery {
@@ -69,6 +74,8 @@ body {
 }
 
 .codeflix {
-  width: 250px;
-  height: 90px;
+  width: 150px;
+  height: 70px;
+  padding: 10px;
+  cursor: pointer;
 }
