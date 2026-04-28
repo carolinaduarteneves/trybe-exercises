@@ -36,34 +36,35 @@
 
   <main id="form-container">
     <form action="" id="form">
-      <div class="group">
-        <label for="name">Full Name: </label>
-        <input type="text" placeholder="Enter your full name" name="name" id="name" required />
+      
+        <label class="label-block" for="name">Full Name: </label>
+        <input class="form-input" type="text" placeholder="Enter your full name" name="name" id="name" required />
+     
+      
+        <label class="label-block" for="email">Email Address: </label>
+        <input class="form-input" type="text" placeholder="Enter your email address" name="email" id="email" required />
+     
+      <label class="label-block" for="age">Age: </label>
+      <input class="form-input" type="number" placeholder="Enter your age" name="age" id="age" required />
+    
 
-        <label for="email">Email Address: </label>
-        <input type="text" placeholder="Enter your email address" name="email" id="email" required />
-
-        <label for="age">Age: </label>
-        <input type="number" placeholder="Enter your age" name="age" id="age" required />
-      </div>
-
-      <label for="favorite-destination">Favorite Destination: </label>
+      <label class="label-block" for="favorite-destination">Favorite Destination: </label>
       <div class="destination">
         <label for="beach"><input type="radio" id="beach" name="favorite-destination" value="beach"
-            required />Beach</label>
+            required />  Beach</label>
         <label for="mountains"><input type="radio" id="mountains" name="favorite-destination" value="mountains"
-            required />Mountains</label>
-        <label for="city"><input type="radio" id="city" name="favorite-destination" value="city" required />City</label>
+            required />  Mountains</label>
+        <label for="city"><input type="radio" id="city" name="favorite-destination" value="city" required />  City</label>
         <label for="forest"><input type="radio" id="forest" name="favorite-destination" value="forest"
-            required />Forest</label>
+            required />  Forest</label>
       </div>
-      <div class="textarea-group">
-        <label for="motivation">Why should you be selected for this adventure?</label>
+      
+        <label class="label-block" for="motivation">Why should you be selected for this adventure?</label>
         <textarea name="motivation" id="motivation" placeholder="Tell us why you deserve this adventure..."
           required></textarea>
-      </div>
-      <div class="select-group">
-        <label for="season">Preferred Travel Season: </label>
+     
+      
+        <label class="label-block" for="season">Preferred Travel Season: </label>
 
         <select name="season" id="season" required>
           <option value="">Select a season</option>
@@ -72,16 +73,16 @@
           <option value="spring">Spring</option>
           <option value="autumn">Autumn</option>
         </select>
-      </div>
+      
 
       <div class="checkbox-group">
         <div class="checkbox">
-        <input type="checkbox" value="accepted" required />I agree to the terms
-        and conditions. 
+          <input type="checkbox" value="accepted" required />  I agree to the terms
+          and conditions.
         </div>
         <div class="checkbox">
-        <input type="checkbox" value="yes" />I want to receive
-        promotional emails.
+          <input type="checkbox" value="yes" />  I want to receive
+          promotional emails.
         </div>
       </div>
       <button type="submit" id="button">Apply Now</button>
