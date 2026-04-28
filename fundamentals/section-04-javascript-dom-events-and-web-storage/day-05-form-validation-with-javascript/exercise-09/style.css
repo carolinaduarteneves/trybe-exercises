@@ -134,7 +134,7 @@ textarea::placeholder {
   button {
     padding: 10px;
     font-size: 15px;
-    height: 70px;
+
     width: 90px;
   }
 
@@ -145,10 +145,16 @@ textarea::placeholder {
     justify-content: center;
     align-items: center;
     margin-top: 90px;
+    margin-right: 20px;
   }
 
   img {
     width: 400px;
     height: 300px;
+  }
+
+  .destination {
+    display: flex;
+    flex-direction: column;
   }
 }
