@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1778788698959" clover="3.2.0">
+  <project timestamp="1778788698959" name="All files">
+    <metrics statements="30" coveredstatements="30" conditionals="16" coveredconditionals="16" methods="4" coveredmethods="4" elements="50" coveredelements="50" complexity="0" loc="30" ncloc="30" packages="1" files="4" classes="4"/>
+    <file name="createItem.js" path="/home/cercarol/trybe-exercises/fundamentals/section-05-intro-to-js-es6-and-unit-tests/day-03-matchers-and-code-coverage/exercise-03/createItem.js">
+      <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="6" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="10" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="14" count="2" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+    </file>
+    <file name="printMessage.js" path="/home/cercarol/trybe-exercises/fundamentals/section-05-intro-to-js-es6-and-unit-tests/day-03-matchers-and-code-coverage/exercise-03/printMessage.js">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="12" count="3" type="stmt"/>
+      <line num="14" count="3" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+    </file>
+    <file name="searchEmployee.js" path="/home/cercarol/trybe-exercises/fundamentals/section-05-intro-to-js-es6-and-unit-tests/day-03-matchers-and-code-coverage/exercise-03/searchEmployee.js">
+      <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="40" count="1" type="stmt"/>
+      <line num="41" count="6" type="stmt"/>
+      <line num="42" count="16" type="cond" truecount="2" falsecount="0"/>
+      <line num="43" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="44" count="2" type="stmt"/>
+      <line num="47" count="3" type="stmt"/>
+      <line num="51" count="1" type="stmt"/>
+      <line num="54" count="1" type="stmt"/>
+    </file>
+    <file name="sum.js" path="/home/cercarol/trybe-exercises/fundamentals/section-05-intro-to-js-es6-and-unit-tests/day-03-matchers-and-code-coverage/exercise-03/sum.js">
+      <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="2" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="6" count="2" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
