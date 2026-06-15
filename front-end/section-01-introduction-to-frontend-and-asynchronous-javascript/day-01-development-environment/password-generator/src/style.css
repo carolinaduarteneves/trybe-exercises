@@ -1,0 +1,40 @@
+body {
+  background-color: rgba(30, 24, 42, 0.511);
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+button {
+  width: 50%;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  margin: 5px;
+  background-color: rgb(54, 54, 74);
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  background-color: rgba(30, 24, 42, 0.099);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+h2 {
+  background-color: rgba(30, 24, 42, 0.305);
+  border-radius: 6px;
+  padding: 10px;
+}
