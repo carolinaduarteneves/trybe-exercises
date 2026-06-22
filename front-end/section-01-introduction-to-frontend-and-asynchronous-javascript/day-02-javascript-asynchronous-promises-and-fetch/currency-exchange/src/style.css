@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header,
+main {
+  width: 90%;
+  max-width: 850px;
+}
+
+header {
+  margin-top: 40px;
+  align-self: center;
+}
+
+h1 {
+  color: white;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  text-align: left;
+}
+
+.highlight {
+  color: #90ee90;
+}
+
+p,
+label,
+input,
+li,
+h2 {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+}
+
+label {
+  color: #aaaaaa;
+}
+
+.search-container {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+input {
+  background-color: #2d2d2d;
+  border: 1px solid #444444;
+  outline: none;
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 8px 12px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #90ee90;
+}
+
+input::placeholder {
+  color: #888888;
+}
+
+button {
+  background-color: #90ee90;
+  color: #1e1e1e;
+  border: none;
+  border-radius: 7px;
+  padding: 12px 24px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: #7ee889;
+}
+
+section {
+  background-color: #2d2d2d;
+  border-radius: 12px;
+  border: #444444;
+  padding: 10px;
+  display: none;
+}
+
+h2 {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(5, 150px);
+  gap: 8px;
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: auto;
+  padding: 16px;
+}
+
+ul::-webkit-scrollbar {
+  width: 10px;
+}
+
+ul::-webkit-scrollbar-track {
+  background: #2b2b2b;
+  border-radius: 10px;
+}
+
+ul::-webkit-scrollbar-thumb {
+  background: #3a3a3a;
+  border-radius: 10px;
+}
+
+ul::-webkit-scrollbar-thumb:hover {
+  background: #4a4a4a;
+}
+
+.currency-card {
+  background-color: #3a3a3a;
+  border: #555555;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.currency-name {
+  color: white;
+}
+
+.currency-value {
+  color: #c8a84b;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .search-container {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  button {
+    margin-top: 15px;
+  }
+
+  input,
+  button {
+    width: 100%;
+  }
+
+  ul {
+    grid-template-columns: repeat(2, 150px);
+    justify-content: center;
+    overflow-x: hidden;
+    max-height: 400px;
+  }
+}

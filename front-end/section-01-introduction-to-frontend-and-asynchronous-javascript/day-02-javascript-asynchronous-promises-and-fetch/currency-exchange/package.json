@@ -1,0 +1,24 @@
+{
+  "name": "currency-exchange",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "dev": "vite",
+  "build": "vite build",
+  "deploy": "gh-pages -d dist"
+},
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "sweetalert2": "^11.26.25",
+    "vite": "^8.0.16"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
