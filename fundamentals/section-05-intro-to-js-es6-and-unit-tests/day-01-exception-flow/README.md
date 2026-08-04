@@ -23,4 +23,4 @@ Exception handling makes applications more reliable by preventing invalid input 
 ## Live Page
 You can view this exercise live here:
 
-👉 https://carolinaduarteneves.github.io/trybe-exercises/fundamentals/section-05-intro-to-js-es6-and-unit-tests/day-01-exception-flow/
+👉 https://carolinaduarteneves.github.io/trybe-exercises/fundamentals/section-05-intro-to-js-es6-and-unit-tests/day-01-exception-flow/exercise-01/
