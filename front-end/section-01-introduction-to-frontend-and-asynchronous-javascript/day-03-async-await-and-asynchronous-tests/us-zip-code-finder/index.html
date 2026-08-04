@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>US ZIP Code Finder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="card">
+        <h1>US ZIP Code Finder</h1>
+
+        <p class="description">
+          Enter a US ZIP Code to find location information.
+        </p>
+
+        <form class="search-form">
+          <label for="zip-code">ZIP Code</label>
+
+          <input
+            type="text"
+            id="zip-code"
+            placeholder="Example: 90210"
+            maxlength="5"
+          />
+
+          <button type="submit" id="search-button">Search</button>
+        </form>
+
+        <p id="loading-message" class="loading"></p>
+        <p id="error-message" class="error"></p>
+
+        <section id="result-container" class="result" aria-live="polite"></section>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
