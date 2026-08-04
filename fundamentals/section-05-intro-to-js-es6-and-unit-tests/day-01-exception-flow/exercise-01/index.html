@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Validation System</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -12,12 +13,12 @@
         <h1>Product Filter</h1>
     </header>
     <main>
+        <div class="label-input-btn">
+            <label for="price">Max Price:</label>
+            <input type="text" id="price" placeholder="Enter max price">
 
-        <label for="price">Max Price:</label>
-        <input type="text" id="price" placeholder="Enter max price">
-
-        <button id="button">Check Products</button>
-
+            <button id="button">Check Products</button>
+        </div>
         <p id="total"></p>
         <p id="error"></p>
 
